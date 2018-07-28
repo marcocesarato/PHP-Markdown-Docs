@@ -31,7 +31,7 @@ ClassMarkdown::printMarkdown('CoreClass.php');
 ### Result
 
 #### CoreClass
-
+```md
 | Method        | Description                                        | Type   | Parameters                                         | Return         |
 | ------------- | -------------------------------------------------- | ------ | -------------------------------------------------- | -------------- |
 | __construct   | Constructor                                        | public |                                                    |                |
@@ -47,3 +47,4 @@ ClassMarkdown::printMarkdown('CoreClass.php');
 | prepare       | Prepare retrieve conditions                        |        | null $what<br>null $operators                      | array          |
 | retrieve      | Retrieve element                                   |        | null $what<br>bool $encode<br>null $onlyFields<br>null $orderBy<br>bool $returnAsArray<br>null $operators<br>bool $dump | array<br>mixed |
 | fetch         |                                                    |        | $what<br>null $operators                           | array          |
+```
