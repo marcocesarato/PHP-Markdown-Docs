@@ -30,8 +30,8 @@ ClassMarkdown::printMarkdown('CoreClass.php');
 
 ### Result
 
-#### CoreClass
-```md
+```text
+## CoreClass
 | Method        | Description                                        | Type   | Parameters                                         | Return         |
 | ------------- | -------------------------------------------------- | ------ | -------------------------------------------------- | -------------- |
 | __construct   | Constructor                                        | public |                                                    |                |
