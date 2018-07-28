@@ -1,4 +1,8 @@
 <?php
+
+/**
+ * Class ClassParser
+ */
 class ClassParser {
   private $classes = array();
   private $extends = array();
@@ -7,11 +11,18 @@ class ClassParser {
   const STATE_CLASS_HEAD = 100001;
   const STATE_FUNCTION_HEAD = 100002;
 
-  public function getClasses() {
+    /**
+     * @return array
+     */
+    public function getClasses() {
     return $this->classes;
   }
 
-  public function getClassesImplementing($interface) {
+    /**
+     * @param $interface
+     * @return array
+     */
+    public function getClassesImplementing($interface) {
     $implementers = array();
     if (isset($this->implements[$interface])) {
       foreach($this->implements[$interface] as $name) {
@@ -21,7 +32,11 @@ class ClassParser {
     return $implementers;
   }
 
-  public function getClassesExtending($class) {
+    /**
+     * @param $class
+     * @return array
+     */
+    public function getClassesExtending($class) {
     $extenders = array();
     if (isset($this->extends[$class])) {
       foreach($this->extends[$class] as $name) {
@@ -31,7 +46,10 @@ class ClassParser {
     return $extenders;
   }
 
-  public function parse($file) {
+    /**
+     * @param $file
+     */
+    public function parse($file) {
     $file = realpath($file);
     $tokens = token_get_all(file_get_contents($file));
     $classes = array();
