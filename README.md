@@ -1,6 +1,6 @@
 # PHP Class Markdown Documentation
 
-Version: 0.1.3 beta
+Version: 0.1.7 beta
 
 Github: https://github.com/marcocesarato/PHP-Class-Markdown-Docs
 
@@ -14,8 +14,6 @@ Generate a Markdown documentation of a given file containing classes in php extr
 
 | Method        | Description                        | Type                | Parameters | Return |
 | ------------- | ---------------------------------- | ------------------- | ---------- | ------ |
-| __construct   | ClassMarkdown constructor          | public              |            |        |
-| parseClass    | Parse a given class var            | protected<br>static | $class     | array  |
 | getMarkdown   | Get markdown class documentation   | public<br>static    | $file      | string |
 | printMarkdown | Print Markdown class documentation | public<br>static    | $file      |        |
 | getArray      | Get php array class documentation  | public<br>static    | $file      | array  |
