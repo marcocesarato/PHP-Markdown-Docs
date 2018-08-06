@@ -1,6 +1,6 @@
 # PHP Class Markdown Documentation
 
-Version: 0.1.7 beta
+Version: 0.1.8 beta
 
 Github: https://github.com/marcocesarato/PHP-Class-Markdown-Docs
 
@@ -8,7 +8,11 @@ Author: Marco Cesarato
 
 ## Description
 
-Generate a Markdown documentation of a given file containing classes in php extracting data from phpdoc
+This package can convert PHPDoc comments from classes into Markdown.
+
+It can parse a class file with a given file name and extracts the documentation of its functions and variables that it may contain in PHPDoc format.
+
+The package can convert the extracted documentation into a file in Markdown format.
 
 ## Methods
 
