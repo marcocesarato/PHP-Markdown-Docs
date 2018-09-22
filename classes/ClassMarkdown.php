@@ -8,7 +8,7 @@ include_once(__DIR__ . '/TextTable.php');
  * @copyright Copyright (c) 2018
  * @license http://opensource.org/licenses/gpl-3.0.html GNU Public License
  * @link https://github.com/marcocesarato/PHP-Class-Markdown-Docs
- * @version 0.1.8
+ * @version 0.1.9
  */
 class ClassMarkdown
 {
