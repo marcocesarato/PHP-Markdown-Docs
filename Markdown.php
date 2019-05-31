@@ -1,6 +1,7 @@
 <?php
-include_once(__DIR__ . '/ClassParser.php');
-include_once(__DIR__ . '/TextTable.php');
+
+namespace marcocesarato\markdown;
+
 
 /**
  * Class Markdown Docs
@@ -10,7 +11,7 @@ include_once(__DIR__ . '/TextTable.php');
  * @link https://github.com/marcocesarato/PHP-Class-Markdown-Docs
  * @version 0.1.9
  */
-class ClassMarkdown
+class Markdown
 {
     public $file;
 

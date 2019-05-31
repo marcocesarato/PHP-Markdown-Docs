@@ -1,4 +1,7 @@
 <?php
+
+namespace marcocesarato\markdown;
+
 /**
  * Creates a markdown document based on the parsed documentation
  *

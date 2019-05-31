@@ -1,5 +1,7 @@
 <?php
 
+namespace marcocesarato\markdown;
+
 /**
  * Class ClassParser
  */
