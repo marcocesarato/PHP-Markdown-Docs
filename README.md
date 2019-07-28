@@ -1,6 +1,6 @@
 # PHP Class Markdown Documentation
 
-Version: 0.1.10 beta
+Version: 0.1.11 beta
 
 Github: https://github.com/marcocesarato/PHP-Class-Markdown-Docs
 

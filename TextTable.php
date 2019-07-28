@@ -4,7 +4,7 @@ namespace marcocesarato\markdown;
 
 /**
  * Creates a markdown document based on the parsed documentation
- *
+ * @package marcocesarato\markdown
  * @author Peter-Christoph Haider <peter.haider@zeyon.net>
  * @package Apidoc
  * @version 1.00 (2014-04-04)

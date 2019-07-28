@@ -5,11 +5,12 @@ namespace marcocesarato\markdown;
 
 /**
  * Class Markdown Docs
+ * @package marcocesarato\markdown
  * @author Marco Cesarato <cesarato.developer@gmail.com>
  * @copyright Copyright (c) 2018
  * @license http://opensource.org/licenses/gpl-3.0.html GNU Public License
  * @link https://github.com/marcocesarato/PHP-Class-Markdown-Docs
- * @version 0.1.9
+ * @version 0.1.11
  */
 class Markdown
 {
